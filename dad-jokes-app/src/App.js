@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import JokeList from "./Components/JokeList";
 
 const App = () => {
     return (
-        <div>
-            fdfdfd
+        <div className="main-container">
+            <JokeList />
         </div>
     )
 }

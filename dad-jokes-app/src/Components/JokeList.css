@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%);
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+.joke-list-container {
+    background-color:rgba(250,250,250)
+}
+.joke-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid red;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.load-icon {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

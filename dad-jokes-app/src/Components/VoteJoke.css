@@ -1,0 +1,4 @@
+.vote-joke-container {
+    display: flex;
+    flex-direction:row;
+}
